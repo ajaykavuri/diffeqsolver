@@ -17,7 +17,7 @@ def solvenext(x0, y0, dx):
 
 def solveprev(x0, y0, dx):
     """
-    Returns y-1 (i.e. previous value) in function
+    Returns ysub(-1) (i.e. previous value) in function
     """
     dydx = diffeq(x0, y0)
     return y0 - dydx*(dx)
